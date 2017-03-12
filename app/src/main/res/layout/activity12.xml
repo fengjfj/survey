@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Entertainment Types"
+        />
+    <CheckBox
+        android:id="@+id/beijing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video Games"
+        />
+    <CheckBox
+        android:id="@+id/shanghai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listen To Music"
+        />
+    <CheckBox
+        android:id="@+id/shenzhen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Movies"
+        />
+
+    <CheckBox
+        android:id="@+id/dalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have Fun With Friends"
+        />
+
+    <CheckBox
+        android:id="@+id/tianjin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go For A Walk"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT" />
+</LinearLayout>
